@@ -70,3 +70,24 @@ footer a { color: #a5a4a4 }
 .pagelist > b { border: 1px solid #000; padding: 5px 10px; }
 .curPage { font-weight: bold }
 .allpage { }
+/* my add*/
+.rbox { display: none }
+.whitebg { background: #fff; border-radius: 3px; padding: 20px; margin-bottom: 20px; overflow: hidden; }
+.paihang ul { overflow: hidden }
+.paihang ul li { height: 30px; line-height: 30px; margin-bottom: 10px; padding-left: 5px; text-overflow: ellipsis; white-space: nowrap; overflow: hidden; }
+.paihang ul li:nth-child(even) { background: #f6f6f6 }
+.paihang ul li i { display: block; width: 16px; height: 16px; background: #B1B1B1; float: left; margin-top: 8px; margin-right: 10px; position: relative; font-style: normal }
+.paihang ul li i::before { position: absolute; left: 0; top: 0; font-size: 9px; color: #fff; line-height: 16px; width: 16px; text-align: center }
+.paihang ul li:first-child i, .paihang ul li:nth-child(2) i, .paihang ul li:nth-child(3) i { background: #FF6600; }
+.paihang ul li:first-child i::before { content: "1"; }
+.paihang ul li:nth-child(2) i::before { content: "2"; }
+.paihang ul li:nth-child(3) i::before { content: "3"; }
+.paihang ul li:nth-child(4) i::before { content: "4"; }
+.paihang ul li:nth-child(5) i::before { content: "5"; }
+.paihang ul li:nth-child(6) i::before { content: "6"; }
+.paihang ul li:nth-child(7) i::before { content: "7"; }
+.paihang ul li:nth-child(8) i::before { content: "8"; }
+.paihang ul li:hover { -moz-transition: all .2s ease; -webkit-transition: all .2s ease; transition: all .2s ease; }
+.htitle { font-size: 16px; line-height: 40px; border-bottom: 1px solid #eee; color: #484848; font-weight: normal; position: relative; margin-bottom: 10px; }
+.htitle:after { content: ""; position: absolute; width: 60px; height: 2px; content: ""; background: #000; left: 0; bottom: 0; -moz-transition: all .5s ease; -webkit-transition: all .5s ease; transition: all .5s ease; }
+.htitle:hover:after { width: 80px; }
